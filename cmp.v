@@ -25,7 +25,7 @@ input a,b,
 output reg a_lt_b,a_gt_b,a_eq_b 
     );
     always @(*)begin
-        //a_lt_b = 0,a_gt_b = 0,a_eq_b = 0;
+      
         {a_lt_b,a_gt_b,a_eq_b} = 3'b000;
     if(a>b)
       a_gt_b = 1;
