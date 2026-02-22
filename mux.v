@@ -22,7 +22,7 @@
 
 module mux(
        
-       input a,b,c,s,
+       input a,b,s,
        output reg y
     );
     always @(*)begin
